@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
@@ -44,76 +45,77 @@
 
     <!-- Project list -->
 
-    <table
-        style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <table class="holder">
         <tbody>
             <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
                     <h3>Projects</h3>
-                    <table class="hoverTable"
-                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <!-- TODO: unflex -->
-                                <div style="display: flex; align-items: center; padding: 20px;">
-                                    <div style="flex-shrink: 0; margin-right: 20px;">
-                                        <img src='images/codewords.png' width="160">
-                                    </div>
-                                    <div>
-                                        <span class="papertitle">
-                                            <a href="https://samgjl.github.io/collaborative-codewords/">Collaborative
-                                                Codewords</a>
-                                        </span>
-                                        <br>
-                                        <a href="https://www.linkedin.com/in/samgjl/">Sam Johnson-Lacoss</a>,
-                                        <strong>Gwen Bradforth</strong>
-                                        <br>
-                                        <p>
-                                            Codewords, or Cipher Crosswords, hides a crossword behind a substitution
-                                            cipher.
-                                            Each letter is replaced by a number. Solve the puzzle by reversing the
-                                            substitution!
-                                        </p>
-                                    </div>
-                                </div>
-                            </tr>
+                    <div style="display: flex; align-items: center; padding: 20px;">
+                        <div style="flex-shrink: 0; margin-right: 20px;">
+                            <img src='images/codewords.png' width="160">
+                        </div>
+                        <div>
+                            <span class="papertitle">
+                                <a href="https://samgjl.github.io/collaborative-codewords/">Collaborative
+                                    Codewords</a>
+                            </span>
+                            <br>
+                            <a href="https://www.linkedin.com/in/samgjl/">Sam Johnson-Lacoss</a>,
+                            <strong>Gwen Bradforth</strong>
+                            <br>
+                            <p>
+                                Codewords, or Cipher Crosswords, hides a crossword behind a substitution
+                                cipher.
+                                Each letter is replaced by a number. Solve the puzzle by reversing the
+                                substitution!
+                            </p>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; padding: 20px;">
+                        <div>
+                            <span class="papertitle"><a href="data/SocalNLP_Dementiaproject (1).pdf">A
+                                    Multimodal
+                                    Benchmark of Speech, Gaze, and Sketches for Detecting
+                                    Alzheimer's disease and related dementias</a></span>
+                            <br>
+                            <a href="https://leticiapinto.github.io//">Leticia Pinto-Alva</a>,
+                            <a href="https://www.linkedin.com/in/leslie-moreno/">Leslie Moreno</a>,
+                            <strong>Gwen Bradforth</strong>,
+                            Riley Ashford,
+                            <a href="https://www.linkedin.com/in/cecily-chung-b2ab53276/">Cecily Chung</a>
+                            <br>
+                            <em>SocalNLP</em>, 2023
+                            <p>
+                                We established a research collaboration with the USC
+                                Alzheimer Disease Research Center (ADRC) to
+                                develop a multimodal dataset of speech, gaze, and pen pressure from 41
+                                participants on three
+                                common dementia screening tasks.
+                            </p>
+                        </div>
+                        <div style="flex-shrink: 0; margin-right: 20px;">
+                            <div class="pic">
+                                <img src='images/cookie_theft_transparent.png' width="160">
+                            </div>
+                        </div>
+                </td>
 
-                            <tr>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <span class="papertitle"><a href="data/SocalNLP_Dementiaproject (1).pdf">A
-                                            Multimodal
-                                            Benchmark of Speech, Gaze, and Sketches for Detecting
-                                            Alzheimer's disease and related dementias</a></span>
-                                    <br>
-                                    <a href="https://leticiapinto.github.io//">Leticia Pinto-Alva</a>,
-                                    <a href="https://www.linkedin.com/in/leslie-moreno/">Leslie Moreno</a>,
-                                    <strong>Gwen Bradforth</strong>,
-                                    Riley Ashford,
-                                    <a href="https://www.linkedin.com/in/cecily-chung-b2ab53276/">Cecily Chung</a>
-                                    <br>
-                                    <em>SocalNLP</em>, 2023
-                                    <p>
-                                        We established a research collaboration with the USC
-                                        Alzheimer Disease Research Center (ADRC) to
-                                        develop a multimodal dataset of speech, gaze, and pen pressure from 41
-                                        participants on three
-                                        common dementia screening tasks.
-                                    </p>
-                                </td>
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one">
-                                        <img src='images/cookie_theft_transparent.png' width="160">
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <!-- footer -->
+                <table class="holder">
+                    <tbody>
+                        <tr>
+                            <td style="padding:0px">
+                                <br>
+                                <p style="text-align:right;font-size:small;">
+                                    Base source code from Jon Barron's <a href="https://jonbarron.info/">website</a>.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
                 </td>
             </tr>
         </tbody>
     </table>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
 </body>
